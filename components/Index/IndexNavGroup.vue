@@ -25,6 +25,7 @@
 						<li
 							v-for="(tab, i) in groupData.tab_list"
 							:data-index="i"
+							:key='i'
 							:id="`${classNamePrefixGroupTab}${groupData.group_name}_${tab.tab_name}`"
 							class="z-10 hover:text-[#007bff] hover:cursor-pointer active:text-[#007bff] active:font-bold px-3 text-[14px]"
 							:class="`${currTab == i ? 'active' : 'font-wei'}`"
@@ -56,6 +57,7 @@
 				v-for="(item, t) in groupData.tab_list[currTab].details.filter((i) => i.is_show)"
 				:content="item.description"
 				:nowrap="true"
+				:key="t"
 				:element-id="`desc-${idx}-${t}`"
 				class="mb-[10px]"
 				:class="` ${showNumber <= t ? 'hidden' : ''}`"

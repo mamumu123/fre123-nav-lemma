@@ -1,6 +1,6 @@
 {
 	"base": {
-		"app_name": "FRE123",
+		"app_name": "",
 		"web_host": "https://www.fre123.com",
 		"logo": "https://img.fre123.com/i/2023/11/25/65619e8022505.png"
 	},
@@ -15,12 +15,6 @@
 			"is_show": true,
 			"list": [
 				{
-					"name": "百度",
-					"url": "https://www.baidu.com/s?wd=",
-					"icon": "https://img.fre123.com/i/2023/11/26/656303de24efc.png",
-					"placeholder": "百度一下，你就知道"
-				},
-				{
 					"name": "谷歌",
 					"url": "https://www.google.com/search?q=",
 					"icon": "https://img.fre123.com/i/2023/11/26/6563038539819.png",
@@ -31,6 +25,12 @@
 					"url": "https://cn.bing.com/search?q=",
 					"icon": "https://img.fre123.com/i/2023/11/26/65630386088eb.png",
 					"placeholder": "请输入您要搜索的内容..."
+				},
+				{
+					"name": "百度",
+					"url": "https://www.baidu.com/s?wd=",
+					"icon": "https://img.fre123.com/i/2023/11/26/656303de24efc.png",
+					"placeholder": "百度一下，你就知道"
 				}
 			]
 		},
@@ -57,7 +57,7 @@
 		}
 	},
 	"pendant": {
-		"is_show": true,
+		"is_show": false,
 		"list": [
 			{
 				"icon_class": "fab fa-weixin",
@@ -90,7 +90,7 @@
 	},
 	"footer": {
 		"right": {
-			"is_show": true,
+			"is_show": false,
 			"list": [
 				{
 					"icon_class": "fas fa-comment-dots",
